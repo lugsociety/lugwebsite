@@ -34,7 +34,7 @@ export default class ExercisesList extends Component {
 
 
 
-    axios.get(port + '/exercises/')
+    axios.get('/exercises/')
       .then(response => {
         this.setState({ exercises: response.data })
       })

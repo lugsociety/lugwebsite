@@ -42,7 +42,7 @@ export default class Register extends Component {
   
       console.log(user);
   
-      axios.post(port + '/users/add', user)
+      axios.post('/users/add', user)
         .then(response => {
          // if(response.data== true)
           //{

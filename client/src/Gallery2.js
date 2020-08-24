@@ -75,7 +75,7 @@ class DemoCarousel extends Component {
     console.log(error);
   });
   */
-  axios.get(port + '/legendupload/').then(response => {
+  axios.get('/legendupload/').then(response => {
     this.setState({
       legends: response.data.legenduploads
     });

@@ -92,7 +92,7 @@ class Gallery extends Component {
   }).catch(error => {
     console.log(error);
   });*/
-  axios.get(port + '/imageupload/')
+  axios.get('/imageupload/')
   .then(response => {
     this.setState({ imageuploads: response.data.imageuploads })
   })

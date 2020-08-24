@@ -52,7 +52,7 @@ export default class LegendUploadComponent extends Component {
         /*const number = this.state.number;
         const name = this.state.name;
         const desc = this.state.desc;*/
-        axios.post(port +"/legendupload/user-profile", formData).then(res => {
+        axios.post("/legendupload/user-profile", formData).then(res => {
             console.log(res)
         })
 

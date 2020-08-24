@@ -60,7 +60,7 @@ class Imageupload extends Component {
     }).catch(err => {
       alert(err.message);
     });*/
-    axios.post(port + '/uploadfile', formData)
+    axios.post('/uploadfile', formData)
     window.location = '/';
   }
 

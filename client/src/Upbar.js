@@ -48,7 +48,7 @@ export default class Upbar extends Component {
 
     console.log(user);
 
-    axios.post(port +'/users/login', user)
+    axios.post('/users/login', user)
       .then(response => {
         if(response.data== true)
         {
