@@ -2,7 +2,7 @@ import React ,{Component} from "react";
 import Sample from "./images/Sample.jpg";
 import axios from 'axios';
 const BASE_URL = 'http://localhost:5000/';
-const port = process.env.PORT || "http://localhost:5000"
+const port = "http://localhost:5000"
 const Image = props => (
   <div className="child">
    <img src={props.imageupload.profileImg} className="gya circle" alt="click"/>

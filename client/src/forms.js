@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-const port = process.env.PORT || "http://localhost:5000"
+const port = "http://localhost:5000"
 
 export default class CreateExercise extends Component {
   constructor(props) {

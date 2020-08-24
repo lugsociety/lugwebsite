@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import axios from "axios";
 import { Link, Redirect } from "react-router-dom";
-const port = process.env.PORT || "http://localhost:5000"
+const port = "http://localhost:5000"
 export default class Register extends Component {
     constructor(props) {
       super(props);

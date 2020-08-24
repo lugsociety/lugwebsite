@@ -3,7 +3,7 @@ import axios from 'axios';
 import Gallery from './Gallery'
 // base url of API
 const BASE_URL = 'http://localhost:5000/';
-const port = process.env.PORT || "http://localhost:5000";
+const port = "http://localhost:5000";
 
 class Imageupload extends Component {
   constructor(props) {

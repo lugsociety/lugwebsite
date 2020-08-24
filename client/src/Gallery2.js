@@ -5,7 +5,7 @@ import "./style.css";
 import { Carousel } from "react-responsive-carousel";
 import Sample from "./images/poster.jpg";
 const BASE_URL = 'http://localhost:5000/';
-const port = process.env.PORT || "http://localhost:5000"
+const port = "http://localhost:5000"
 const Legend = props => (
   <div className="efg">
     <img className="carousel circle" src={props.legendupload.profileImg} alt="abc" />

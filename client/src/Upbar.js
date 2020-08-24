@@ -7,7 +7,7 @@ import logo from "./images/logo.png";
 import { Link, Redirect } from "react-router-dom";
 import ls from 'local-storage';
 
-const port = process.env.PORT || "http://localhost:5000"
+const port = "http://localhost:5000"
 export default class Upbar extends Component {
   constructor(props) {
     super(props);
